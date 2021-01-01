@@ -21,10 +21,10 @@ class Mainwindow(tk.Tk):
         self.lblurlmsg.grid(row=0,column=3)
         self.txturl = tk.Entry(self, relief="sunken",)
         self.txturl.grid(column=3,row=0)
-        self.btnDownload = tk.Button(self,text="download",command=self.Download)
+        self.btnDownload = tk.Button(self,text="download", background="blue",command=self.Download)
         self.lbllistTitle = tk.Label(self,text="complated   video downlaodes")
         self.lbllistTitle.grid(row=2,column=2)
-        self.btnDownload.grid(row=3,column=4)
+        self.btnDownload.grid(row=0,column=2)
         self.completedList = tk.Listbox(self) 
         self.completedList.grid(row=3,column=2)
         self.lblStatus = tk.Label
