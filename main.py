@@ -1,4 +1,3 @@
-"old app vrsion  mand ades just added blaclog"
 from pytube import YouTube 
 import tkinter as tk
 from tkinter import messagebox

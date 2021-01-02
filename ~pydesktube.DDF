@@ -1,0 +1,29 @@
+;Auto-generated Diamond Directive File. Can be deleted without harm.
+.Set CabinetNameTemplate=S:\pydesktube\~pydesktube.CAB
+.Set CompressionType=LZX
+.Set CompressionLevel=7
+.Set InfFileName=S:\pydesktube\~pydesktube_LAYOUT.INF
+.Set RptFileName=S:\pydesktube\~pydesktube.RPT
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=0
+.Set InfCabinetLineFormat=*cab#*=Application Source Media,*cabfile*,0
+.Set Compress=on
+.Set CompressionMemory=21
+.Set DiskDirectoryTemplate=
+.Set Cabinet=ON
+.Set MaxCabinetSize=999999999
+.Set InfDiskHeader=
+.Set InfDiskLineFormat=
+.Set InfCabinetHeader=[SourceDisksNames]
+.Set InfFileHeader=
+.Set InfFileHeader1=[SourceDisksFiles]
+.Set InfFileLineFormat=*file*=*cab#*,,*size*,*csum*
+S:\pydesktube\__init__.py
+S:\pydesktube\main.py
+S:\pydesktube\main.pyw
+S:\pydesktube\pwt.ico
+S:\pydesktube\readme.md
+S:\pydesktube\readme.txt
+S:\pydesktube\requirments.txt
+S:\pydesktube\setup.py
+S:\pydesktube\workspace.code-workspace
